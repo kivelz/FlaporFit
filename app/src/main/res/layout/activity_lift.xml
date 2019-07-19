@@ -22,6 +22,7 @@
         app:srcCompat="@drawable/weight" />
 
     <LinearLayout
+        android:id="@+id/mainBG"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/rounded_corners"
@@ -48,6 +49,7 @@
             android:paddingLeft="100dp"
             android:text="Complete Set 1"
             android:textAlignment="center"
+            android:textColor="#fff"
             android:textSize="20dp" />
 
         <CheckBox
@@ -59,6 +61,7 @@
             android:paddingLeft="100dp"
             android:text="Complete Set 2"
             android:textAlignment="center"
+            android:textColor="#fff"
             android:textSize="20dp" />
 
         <CheckBox
@@ -70,6 +73,7 @@
             android:paddingLeft="100dp"
             android:text="Complete Set 3"
             android:textAlignment="center"
+            android:textColor="#fff"
             android:textSize="20dp" />
 
         <CheckBox
@@ -81,6 +85,7 @@
             android:paddingLeft="100dp"
             android:text="Complete Set 4"
             android:textAlignment="center"
+            android:textColor="#fff"
             android:textSize="20dp" />
 
         <CheckBox
@@ -92,6 +97,7 @@
             android:paddingLeft="100dp"
             android:text="Complete Set 5"
             android:textAlignment="center"
+            android:textColor="#fff"
             android:textSize="20dp" />
     </LinearLayout>
 </LinearLayout>
