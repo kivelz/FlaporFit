@@ -11,11 +11,7 @@ import static android.webkit.ConsoleMessage.MessageLevel.LOG;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    public static final String Tag = "MainActivity";
-    public static final String EXERSICE_WEIGHT = "weight_lift";
-    public static final String EXERSICE_CARDIO= "Cardio";
-    public static final String EXERSICE_YOGA = "Yoga";
-
+    public static final String EXTRA_ITEM_TITLE = "extra.item.title";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,13 +32,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
        switch (view.getId()) {
            case R.id.weight_lift:
                Intent weightActivity = new Intent(MainActivity.this, LiftActivity.class);
+               weightActivity.putExtra(MainActivity.EXTRA_ITEM_TITLE, "Weight Lifting");
                startActivity(weightActivity);
+               break;
            case R.id.cardio:
                Intent cardioActivity = new Intent(MainActivity.this, CardioActivity.class);
                startActivity(cardioActivity);
+               break;
            case R.id.yoga:
                Intent yogaActivity = new Intent(MainActivity.this, YogaActivity.class);
                startActivity(yogaActivity);
+               break;
         }
 
     }

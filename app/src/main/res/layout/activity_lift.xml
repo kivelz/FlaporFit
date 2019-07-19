@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:id="@+id/main_background">
+
+    <TextView
+        android:id="@+id/exersiceTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/weight_lift"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/exersiceImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/weight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#20000000"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Mark It Complete!"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:id="@+id/weightCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="100dp"
+            android:text="Complete Set 1"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/weightCheckBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="100dp"
+            android:text="Complete Set 2"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/weightCheckBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="100dp"
+            android:text="Complete Set 3"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/weightCheckBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="100dp"
+            android:text="Complete Set 4"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/weightCheckBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="100dp"
+            android:text="Complete Set 5"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>
+
+
