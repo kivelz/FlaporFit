@@ -12,12 +12,13 @@
     tools:context=".MainActivity">
 
     <RelativeLayout
+        android:id="@+id/weight_lift"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
         android:layout_weight="1"
         android:background="@drawable/rounded_corners"
-        android:backgroundTint="#2ca5f5"
-        android:layout_marginBottom="5dp">
+        android:backgroundTint="#2ca5f5">
 
         <ImageView
             android:id="@+id/imageViewYoga"
@@ -83,12 +84,12 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/yoga"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:background="@drawable/rounded_corners"
-        android:backgroundTint="#916bcd"
-        >
+        android:backgroundTint="#916bcd">
 
         <ImageView
             android:id="@+id/imageViewYogas"
@@ -154,9 +155,10 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/cardio"
         android:layout_width="match_parent"
-        android:layout_marginTop="5dp"
         android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
         android:layout_weight="1"
         android:background="@drawable/rounded_corners"
         android:backgroundTint="#52ad56">
