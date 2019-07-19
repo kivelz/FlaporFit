@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Flap or Fit</string>
+    <string name="yoga">Yoga</string>
+    <string name="weight_lift">Weight Lifting</string>
+    <string name="do_you_lift">Do you even lift?</string>
+    <string name="namaste">Namaste</string>
+    <string name="cardio">Cardio</string>
+    <string name="run_like_crazy">Run like crazy</string>
+</resources>
